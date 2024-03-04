@@ -13,7 +13,7 @@ int main (void){
       scanf("%d", &qtd);
 	 	
       if(!(no=malloc(sizeof(struct listaNo)))){
-         printf("Faltou memória!\n");
+         printf("Faltou memÃ³ria!\n");
          exit(1);
       }
       no -> prox = head;
